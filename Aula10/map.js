@@ -27,5 +27,12 @@ let RA_Alunos = alunos.map((n1) => {
     return n1.RA_RM
 })
 
+let nomeMaior = nomeAlunos.map(
+    (nomes) => {
+        return nomes.toUpperCase()
+    }
+)
+
 console.log(nomeAlunos);
 console.log(RA_Alunos);
+console.log(nomeMaior);
